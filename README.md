@@ -14,7 +14,7 @@ Examples
         exponential time-differencing fourth order Runge-Kutta(etdrk4)
         [Ck,zgrid] = FP_main(2^10,20,0.5,5e-2,5e-2,0,2,5e3,1,2);
 	
-(iii) 	For modified nuetral profile for time=3(h/u*), with epsilon 
+(iii) 	For modified neutral profile for time=3(h/u*), with epsilon 
         parameter of 0.8
         [Ck,zgrid] = FP_main(2^10,20,0.5,5e-2,5e-2,0.8,3,5e3,3,2);
 	
